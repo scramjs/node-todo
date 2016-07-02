@@ -1,3 +1,5 @@
+# This is a fork of the original project, rewritten with [Express Web Components](https://github.com/scramjs/express-web-components)
+
 # Node Todo App
 
 A Node app built with MongoDB and Angular. For demonstration purposes and a tutorial.
