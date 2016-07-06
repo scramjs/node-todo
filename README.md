@@ -2,6 +2,7 @@
 
 ## Usage
 ```
+bower install
 npm install
 npm run dev-window
 ```
