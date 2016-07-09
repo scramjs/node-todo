@@ -16,6 +16,6 @@
     "method-override": "^2.1.3",
     "mongoose": "^4.4.12",
     "morgan": "^1.1.1",
-    "scram-engine": "^0.2.2"
+    "scram-engine": "^0.3.1"
   }
 }
