@@ -7,12 +7,12 @@
 <dom-module id="server-app">
     <template>
         <express-app port="[[port]]" callback="[[listenCallback]]">
-            <express-config callback=[[setStatic]]></express-config>
-            <express-middleware callback=[[morgan]]></express-middleware>
-            <express-middleware callback=[[bodyParserURL]]></express-middleware>
-            <express-middleware callback=[[bodyParserJSON]]></express-middleware>
-            <express-middleware callback=[[bodyParserCustom]]></express-middleware>
-            <express-middleware callback=[[methodOverride]]></express-middleware>
+            <express-config callback="[[setStatic]]"></express-config>
+            <express-middleware callback="[[morgan]]"></express-middleware>
+            <express-middleware callback="[[bodyParserURL]]"></express-middleware>
+            <express-middleware callback="[[bodyParserJSON]]"></express-middleware>
+            <express-middleware callback="[[bodyParserCustom]]"></express-middleware>
+            <express-middleware callback="[[methodOverride]]"></express-middleware>
 
             <server-api></server-api>
             <express-middleware method="get" path="*" callback="[[appHandler]]"></express-middleware>
